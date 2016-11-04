@@ -1,0 +1,32 @@
+{
+  "name": "postcss-border-9-patch",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to generate 9-patch like border styles",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "9-patch"
+  ],
+  "author": "teaualune <teaualune@gmail.com>",
+  "license": "MIT",
+  "repository": "teaualune/postcss-border-9-patch",
+  "bugs": {
+    "url": "https://github.com/teaualune/postcss-border-9-patch/issues"
+  },
+  "homepage": "https://github.com/teaualune/postcss-border-9-patch",
+  "dependencies": {
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.9.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
