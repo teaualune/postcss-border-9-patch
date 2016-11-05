@@ -7,7 +7,7 @@
 ## Introduction
 
 This plugin aims to bring a convenient conversion to border image styles for 9-patch effects.
-In Android we have a bunch of 9-patch toolsets; in iOS we have `UIimage.resizableImageWithCapInsets`.
+In Android we have a bunch of 9-patch toolsets; in iOS we have `UIImage.resizableImageWithCapInsets`.
 In CSS, 9-patch is achieved via appropriate combinations of `border-width`, `border-image-source` and `border-image-slice` rules.
 
 ## Example

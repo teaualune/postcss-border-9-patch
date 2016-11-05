@@ -8,7 +8,7 @@
     "postcss-plugin",
     "9-patch"
   ],
-  "author": "teaualune <teaualune@gmail.com>",
+  "author": "Tai-Lun Tseng <teaualune@gmail.com>",
   "license": "MIT",
   "repository": "teaualune/postcss-border-9-patch",
   "bugs": {
@@ -28,5 +28,8 @@
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
+  },
+  "publishConfig": {
+      "registry": "https://www.npmjs.com"
   }
 }
